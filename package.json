@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dayjs": "^1.11.13"
+  }
+}
