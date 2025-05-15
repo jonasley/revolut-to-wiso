@@ -5,10 +5,12 @@ const dayjs = require('dayjs');
 	dayjs.extend(customParseFormat);
 
 const inputFile = 'koinly-cap-gain-export.csv';
-const outputFile = 'wiso-file.csv';
+const outputFile = 'wiso-import-file.csv';
+
+const taxYear = '2024';
 
 const outputLines = [];
-outputLines.push('Identifier:Capital_Gains,Method:FIFO,Tax_Year:2024,Base_Currency:EUR');
+outputLines.push(`Identifier:Capital_Gains,Method:FIFO,Tax_Year:${taxYear},Base_Currency:EUR`);
 outputLines.push('Amount,Currency,Date Sold,Date Acquired,Short/Long,Buy/Input at,Sell/Output at,Proceeds,Cost Basis,Gain/Loss');
 
 const cleanDate = (str) => {

@@ -1,7 +1,7 @@
 const fs = require('fs')
 const csv = require('csv-parser')
 
-const inputFile = 'crypto-txs-2024.csv'
+const inputFile = 'crypto-txs.csv'
 
 let txCosts = 0
 
