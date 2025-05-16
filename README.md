@@ -1,4 +1,4 @@
-# revolut-to-wiso
+# revolut-to-wiso transformation
 Scripts that format lists of transactions form Revolut and Koinly, making them import-able to WISO tax software.
 
 ---
